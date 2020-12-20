@@ -215,6 +215,7 @@ header {
   font-size: 16px;
   line-height: 1.9;
   text-align: center;
+  border-radius: 0 0 4px 4px;
 }
 .team-elements:nth-child(4) {
   margin: 0;
@@ -300,7 +301,7 @@ header {
   margin-bottom: 0;
 }
 .project-title {
-  margin: 20px 24px 4px;
+  margin: 0 0 4px;
   color: var(--title-text-color);
   font-weight: bold;
   font-size: 18px;
@@ -308,8 +309,14 @@ header {
   letter-spacing: 0.06em;
 }
 .project-name {
-  margin: 0 24px 20px;
+  margin: 0;
   color: var(--primery-text-color);
   font-size: 16px;
   line-height: 1.88;
+}
+.signature {
+  padding: 20px 24px;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
